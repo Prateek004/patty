@@ -25,7 +25,8 @@ interface Props {
 interface PayMethod {
   id: PaymentMethod;
   label: string;
-  Icon: ({ size }: { size: number }) => React.ReactElement;
+  
+Icon: React.ElementType;
 }
 
 const PAY_METHODS: PayMethod[] = [
